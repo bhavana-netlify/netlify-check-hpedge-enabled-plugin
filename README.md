@@ -3,7 +3,7 @@
 This is a web app demo using a custom build plugin to check if HP Edge is enabled properly for the site. It's using the starter [Next.js](https://nextjs.org/) project though you can use any framework. The build plugin runs as part of the Netlify build process and does the following:
 
 1. The build plugin runs as part of the Netlify site build process (enabled by settings in netlify.toml file)
-2. The plugin take the sites name (derived from the URL being built) and checks against a DNS server to confirm if the "CNAME" and "A" records are properly setup so that the site is served from the Netlify High Performance Edge network.
+2. The plugin takes the site name (derived from the URL being built) and checks against a DNS server to confirm if the "CNAME" and "A" records are properly setup so that the site is served from the Netlify High Performance Edge network.
  Note: In some instances if there is another CDN configured from which the requests are proxied to Netlify the results may not be accurate.
 3. The plugin will log the results in the build logs and the deploy summary.
 ![](public/hpedge_check_plugin_deploy_summary.png)
