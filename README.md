@@ -8,6 +8,8 @@ This is a web app demo using a custom build plugin to check if HP Edge is enable
 3. The plugin will log the results in the build logs and the deploy summary.
 ![](public/hpedge_check_plugin_deploy_summary.png)
 
+Note: This checks if a site is properly hosted on our HP Edge when you use an external DNS provider (not Netlify DNS)
+
 ## Setting up the demo
 To try this plugin, click on [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ameerbadri/netlify-check-hpedge-enabled-plugin)
 
